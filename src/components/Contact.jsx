@@ -3,7 +3,7 @@ import {FaBars, FaTimes, FaGithub, FaLinkedin, FaInstagram, FaYoutube} from 'rea
 
 const Contact = () => {
   return (
-    <div name='contact' className='w-full h-screen bg-[#0a192f] flex justify-center items-center p-4'>
+    <div name='contact' className='w-full h-screen bg-[#0a192f] flex justify-center items-center p-4 mt-20'>
        {/* Container */}
     <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div>

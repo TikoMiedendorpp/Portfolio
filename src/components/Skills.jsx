@@ -10,9 +10,9 @@ import Python from '../assets/python.png';
 
 const Skills = () => {
   return (
-    <div name='skills' className=' w-full h-screen bg-[#0a192f] text-gray-300'>
+    <div name='skills' className=' w-full h-screen bg-[#0a192f] text-gray-300 mb-60'>
         {/* Container */}
-        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full bg-[#0a192f]'>
             <div>
                 <p className='text-4xl font-bold inline border-b-4 border-red-600 text-gray-300'>Skills</p>
                 <p className='py-4'>These are the technologies I've worked with so far</p>
