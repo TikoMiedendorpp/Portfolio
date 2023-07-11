@@ -16,7 +16,7 @@ const Home = () => {
                 The first year has equipped me with a solid understanding of CS principles and a passion for Cyber Security! 
             </p>
             <div>
-            <Link to="projects" smooth={true} offset={-320} duration={500}><button className='text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-red-600 hover:border-red-600'>View Projects
+            <Link to="projects" smooth={true} offset={-380} duration={500}><button className='text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-red-600 hover:border-red-600'>View Projects
                 <span className='hover:rotate-90 duration-300'>
                 <HiArrowNarrowRight className='ml-3'/> 
                 </span>

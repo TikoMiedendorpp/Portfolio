@@ -9,13 +9,13 @@ const Projects = () => {
   return (
     <div name='projects' className=' w-full h-screen bg-[#0a192f] text-gray-300'>
     {/* Container */}
-    <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+    <div className='max-w-[1000px] mx-auto pt-20 p-4 flex flex-col justify-center w-full h-full'>
         <div>
             <p className='text-4xl font-bold inline border-b-4 border-red-600 text-gray-300'>Projects</p>
             <p className='py-4'>My recent projects that I have worked on</p>
         </div>
 
-        <div className='w-full grid grid-cols-1 sm:grid-cols-1 gap-4 text-center py-8'>
+        <div className='w-full grid grid-cols-1 sm:grid-cols-1 sm:mt-10 gap-4 text-center py-8'>
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                 <img src={Twitter} alt="Twitter dashboard" className='w-20 mx-auto mt-3' />
                 <p className='font-bold italic'>Twitter Dashboard</p>
