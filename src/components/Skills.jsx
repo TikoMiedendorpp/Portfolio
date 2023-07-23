@@ -7,6 +7,7 @@ import ReactImg from '../assets/react.png';
 import Tailwind from '../assets/tailwind.png';
 import Java from '../assets/java.png';
 import Python from '../assets/python.png';
+import Kali from '../assets/kali.png';
 
 const Skills = () => {
   return (
@@ -50,6 +51,10 @@ const Skills = () => {
                 <div className='shadow-md shadow-[#ffd343] rounded-lg hover:scale-110 duration-500'>
                     <img src={Python} alt="Python icon" className='w-20 mx-auto' />
                     <p className='my-4'>PYTHON</p>
+                </div>
+                <div className='shadow-md shadow-[#2278FF] rounded-lg hover:scale-110 duration-500'>
+                    <img src={Kali} alt="kali icon" className='w-20 mx-auto' />
+                    <p className='my-4'>KALI LINUX</p>
                 </div>
             </div>
 
